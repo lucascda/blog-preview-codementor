@@ -29,6 +29,7 @@ p {
 
 .card-content {
     max-width: 336px;
+    margin-bottom: 12px;
 }
 
 .card-category {
@@ -72,8 +73,10 @@ a:hover {
     color: var(--yellow)
 }
 
-
-
 .card-description {
-
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: var(--gray-500)
 }
