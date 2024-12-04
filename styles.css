@@ -53,8 +53,26 @@ p {
 }
 
 .card-title {
-
+    color: var(--gray-950);
+    font-weight: 800;
+    line-height: 150%;
+    font-size: 24px;
+    letter-spacing: 0px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--gray-950)
+}
+
+a:hover {
+    color: var(--yellow)
+}
+
+
 
 .card-description {
 
